@@ -632,7 +632,7 @@ Can escort: None
 Escorted by: CI
 
 Overview:
-Basic class. Cooperate with others to face SCPs and facility staff. You can be escorted by CI memebers.
+Basic class. Cooperate with others to face SCPs and facility staff. You can be escorted by CI members.
 ]],
 
 	veterand = [[Difficulty: Easy
