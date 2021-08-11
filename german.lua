@@ -75,33 +75,33 @@ lang.NCRegistry = {
 	shelter_escape = "Du hast die Explosion im Sprengbunker überlebt",
 	alpha_escape = "Du bist entkommen, bevor der Sprengkopf explodierte",
 
-	mvp = "MVP: %s with score: %i",
-	stat_kill = "Players killed: %i",
-	stat_rdm = "RDM kills: %i",
-	stat_rdmdmg = "RDM damage: %i",
-	stat_dmg = "Damage dealt: %i",
-	stat_bleed = "Bleeding damage: %i",
-	stat_106recontain = "SCP 106 has been recontained",
-	stat_escapes = "Escaped players: %i",
-	stat_escorts = "Players escorted: %i",
-	stat_023 = "Sudden deaths caused by SCP 023: %i",
-	stat_049 = "Cured people: %i",
-	stat_066 = "Played masterpieces: %i",
-	stat_096 = "Players killed by shy guy: %i",
-	stat_106 = "Players teleported to Pocket Dimension: %i",
-	stat_173 = "Snapped necks: %i",
-	stat_457 = "Incinerated players: %i",
-	stat_682 = "Players killed by overgrown reptile: %i",
-	stat_8602 = "Players nailed to wall: %i",
-	stat_939 = "SCP 939 preys: %i",
-	stat_966 = "Insidious cuts: %i",
-	stat_3199 = "Assassinations by SCP 3199: %i",
-	stat_24273 = "People judged by SCP 2427-3: %i",
-	stat_omega_warhead = "Omega warhead has been detonated",
-	stat_alpha_warhead = "Alpha warhead has been detonated",
+	mvp = "Die meisten Punkte hat: %s mit %i Punkte",
+	stat_kill = "Spieler getötet: %i",
+	stat_rdm = "Tode durch RDM: %i",
+	stat_rdmdmg = "Schaden durch RDM: %i",
+	stat_dmg = "Ausgeteilter schaden: %i",
+	stat_bleed = "Blutungsschaden: %i",
+	stat_106recontain = "SCP 106 wurde recontaint",
+	stat_escapes = "Entkommte Spieler: %i",
+	stat_escorts = "Eskortierte Spieler: %i",
+	stat_023 = "Todesfälle durch SCP 023: %i",
+	stat_049 = "Infizierte Personen: %i",
+	stat_066 = "Schöne Musik gespielt: %i",
+	stat_096 = "Spieler durch SCP 096 getötet: %i",
+	stat_106 = "Spieler zur Pocket Dimension teleportiert: %i",
+	stat_173 = "Nacken gebrochen: %i",
+	stat_457 = "Verbrannte Spieler: %i",
+	stat_682 = "Spieler von SCP 682 getötet: %i",
+	stat_8602 = "Spieler an die Wand genagelt: %i",
+	stat_939 = "Beute von SCP 939: %i",
+	stat_966 = "Player slashed by SCP 966: %i",
+	stat_3199 = "Tode durch SCP 3199: %i",
+	stat_24273 = "Spieler kontrolliert von SCP 2427-3",
+	stat_omega_warhead = "Omega-Gefechtskopf wurde gezündet",
+	stat_alpha_warhead = "Alpha-Gefechtskopf wurde gezündet",
 }
 
-lang.NCFailed = "Failed to access NCRegistry with key: %s"
+lang.NCFailed = "Fehler beim Zugriff auf NCRegistry mit Schlüssel:% s"
 
 --[[-------------------------------------------------------------------------
 HUD
@@ -109,14 +109,14 @@ HUD
 local hud = {}
 lang.HUD = hud
 
-hud.pickup = "Pick up"
-hud.class = "Class"
+hud.pickup = "Aufheben"
+hud.class = "Klasse"
 hud.team = "Team"
-hud.prestige_points = "Prestige Points"
-hud.hp = "HP"
-hud.stamina = "STAMINA"
-hud.sanity = "SANITY"
-hud.xp = "XP"
+hud.prestige_points = "Prestige Punkte"
+hud.hp = "Leben"
+hud.stamina = "Ausdauer"
+hud.sanity = "Verstand"
+hud.xp = "Erfahrung"
 
 --[[-------------------------------------------------------------------------
 EQ
