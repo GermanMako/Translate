@@ -53,7 +53,7 @@ lang.NRegistry = {
 	afk = "You are AFK. You will not spawn and receive XP over time!",
 	afk_end = "You are no longer AFK",
 	overload_cooldown = "Wait %i seconds to overload this door!",
-	advanced_overload = "This door seems to be stronger! Try again in %i seconds",
+	advanced_overload = "This door seems to be stronger than usual! Try again in %i seconds!",
 	lockdown_once = "Facility lockdown can be activated only once per round!",
 }
 
@@ -166,7 +166,7 @@ lang.price = "Price"
 lang.buy = "Buy"
 lang.refound = "Refund"
 lang.none = "None"
-lang.refounded = "All removed classes has been refunded. You've recived %d prestige points."
+lang.refounded = "All removed classes has been refunded. You've received %d prestige points."
 
 lang.details = {
 	details = "Details",
@@ -211,7 +211,7 @@ lang.settings = {
 	client_reset = "Reset Client Settings to Defaults",
 	server_reset = "Reset Server Settings to Defaults",
 
-	client_reset_desc = "You are about to reset your ALL setting in this gamemode.\nThis action cannot be undone!",
+	client_reset_desc = "You are about to reset ALL your settings in this gamemode.\nThis action cannot be undone!",
 	server_reset_desc = "Due to security reasons you cannot reset server settings here.\nTo reset server to default settings, enter 'slc_factory_reset' in server console and follow instructions.\nBe careful this action cannot be undone and will reset EVERYTHING!",
 
 	popup_ok = "OK",
@@ -519,7 +519,7 @@ lang.CLASS_OBJECTIVES = {
 
 	kleptod = generic_classd,
 
-	ciagent = [[- Escort Class D memebers
+	ciagent = [[- Escort Class D members
 - Avoid staff and SCP objects
 - Cooperate with others]],
 
@@ -632,7 +632,7 @@ Can escort: None
 Escorted by: CI
 
 Overview:
-Basic class. Cooperate with others to face SCPs and facility staff. You can be escorted by CI memebers.
+Basic class. Cooperate with others to face SCPs and facility staff. You can be escorted by CI members.
 ]],
 
 	veterand = [[Difficulty: Easy
@@ -644,7 +644,7 @@ Can escort: None
 Escorted by: CI
 
 Overview:
-More advanced class. You have basic access in facility. Cooperate with others to face SCPs and facility staff. You can be escorted by CI memebers.
+More advanced class. You have basic access in facility. Cooperate with others to face SCPs and facility staff. You can be escorted by CI members.
 ]],
 
 	kleptod = [[Difficulty: Hard
@@ -656,7 +656,7 @@ Can escort: None
 Escorted by: CI
 
 Overview:
-High utility class. Starts with one random item. Cooperate with others to face SCPs and facility staff. You can be escorted by CI memebers.
+High utility class. Starts with one random item. Cooperate with others to face SCPs and facility staff. You can be escorted by CI members.
 ]],
 
 	ciagent = [[Difficulty: Medium
@@ -668,7 +668,7 @@ Can escort: Class D
 Escorted by: None
 
 Overview:
-Armed with taser CI unit. Provide help to Class D and cooperate with them. You can escort Class D memebers.
+Armed with taser CI unit. Provide help to Class D and cooperate with them. You can escort Class D members.
 ]],
 
 	sciassistant = [[Difficulty: Medium
@@ -680,7 +680,7 @@ Can escort: None
 Escorted by: Security, MTF
 
 Overview:
-Basic class. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs memebers.
+Basic class. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs members.
 ]],
 
 	sci = [[Difficulty: Medium
@@ -692,7 +692,7 @@ Can escort: None
 Escorted by: Security, MTF
 
 Overview:
-One of the scientists. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs memebers.
+One of the scientists. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs members.
 ]],
 
 	seniorsci = [[Difficulty: Easy
@@ -704,7 +704,7 @@ Can escort: None
 Escorted by: Security, MTF
 
 Overview:
-One of the scientists. You have higher access level. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs memebers.
+One of the scientists. You have higher access level. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs members.
 ]],
 
 	headsci = [[Difficulty: Easy
@@ -716,7 +716,7 @@ Can escort: None
 Escorted by: Security, MTF
 
 Overview:
-Best of the scientists. You have higher utility and HP. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs memebers.
+Highest of the scientists. You have higher utility and HP. Cooperate with facility staff and stay away from SCPs. You can be escorted by MTFs members.
 ]],
 
 	guard = [[Difficulty: Easy
@@ -776,7 +776,7 @@ Can escort: Scientists
 Escorted by: None
 
 Overview:
-One of the guards. Slightly better combat potential, has taser. Utilize your weapon and tools to help other staff members and to kill SCPs and Class D. You can escort Scientists.
+One of the guards. Slightly better combat potential. Utilize your weapon and tools to help other staff members and to kill SCPs and Class D. You can escort Scientists.
 ]],
 
 	guardmedic = [[Difficulty: Hard
@@ -788,7 +788,7 @@ Can escort: Scientists
 Escorted by: None
 
 Overview:
-One of the guards. You have medkit and taser. Utilize your weapon and tools to help other staff members and to kill SCPs and Class D. You can escort Scientists.
+One of the guards. You have a medkit. Utilize your weapon and tools to help other staff members and to kill SCPs and Class D. You can escort Scientists.
 ]],
 
 	tech = [[Difficulty: Hard
@@ -800,7 +800,7 @@ Can escort: Scientists
 Escorted by: None
 
 Overview:
-One of the guards. Has placeable turret, with 3 fire modes (Hold E on turret to see its menu). Utilize your weapon and tools to help other staff members and to kill SCPs and Class D. You can escort Scientists.
+One of the guards. Has a placeable turret, with 3 fire modes (Hold E on turret to see its menu). Utilize your weapon and tools to help other staff members and to kill SCPs and Class D. You can escort Scientists.
 ]],
 
 	cispy = [[Difficulty: Very Hard
@@ -812,7 +812,7 @@ Can escort: Class D
 Escorted by: None
 
 Overview:
-CI spy. High utility. Try to blend in Security Guards and help Class D.
+CI Spy. High utility. Try to blend in Security Guards and help Class D Personnel.
 ]],
 
 	ntf_1 = [[Difficulty: Medium
@@ -860,7 +860,7 @@ Can escort: Scientists
 Escorted by: None
 
 Overview:
-MTF NTF Unit. Armed with pistol, has medkit. Get into facility and secure it. Help staff inside and kill SCPs and Class D.
+MTF NTF Unit. Has a medkit to heal your fellow MTF units. Get into facility and secure it. Help staff inside and kill SCPs and Class D.
 ]],
 
 	ntfcom = [[Difficulty: Hard
@@ -941,7 +941,7 @@ Agility: High
 Damage: Instant Death
 
 Overview:
-You can walk through walls. If someone sees you, they will be put on your list. Once in a while you teleport to one player on list and burn them to death. You can place your clone.
+You can walk through doors. If someone sees you, they will be put on your list. Once in a while you teleport to one player on list and burn them to death. You can place your clone.
 ]],
 
 	SCP049 = [[Difficulty: Hard
@@ -950,7 +950,7 @@ Agility: High
 Damage: Instant Death after 3 attacks
 
 Overview:
-Attack player 3 times to kill them. You can create zombies out of bodies (reload key).
+Attack player 3 times to kill them. You can create zombies out of bodies (using reload key).
 ]],
 
 	SCP0492 = [[]],
@@ -961,7 +961,7 @@ Agility: Normal
 Damage: Low / AoE
 
 Overview:
-You play very loud music damaging all players near you.
+You play very loud music, that damages all players near you.
 ]],
 
 	SCP058 = [[Difficulty: Medium
@@ -970,7 +970,7 @@ Agility: Normal
 Damage: Normal
 
 Overview:
-SCP with flexible playstyle. Can attack melee and shot. Has various upgrades which can add poison to attacks, modify shot attack or unlocks ability to explode.
+SCP with flexible playstyle. Can attack melee and range. Has various upgrades which can add poison to attacks, modify range attack or unlocks ability to explode.
 ]],
 
 	SCP096 = [[Difficulty: Hard
@@ -1024,7 +1024,7 @@ Agility: High
 Damage: Low / High (strong attack)
 
 Overview:
-If someone is near a wall, you can pin them against this wall, dealing massive damage to them. You will also lose some health.
+If someone is near a wall, you can pin them against this wall, dealing massive damage to them. Though, you will also lose some health.
 ]],
 
 	SCP939 = [[Difficulty: Medium
@@ -1262,7 +1262,7 @@ wep.SCP058 = {
 		},
 		shot21 = {
 			name = "Bloody Mist I",
-			info = "Shot leaves mist on impact, hurting and poisoning everyone who touches it.\n\t• Direct and splash damage is removed\n\t• Cloud deals [cloud_damage] damage on contact\n\t• Poison inflicted by cloud deals [sp_dmg] damage\n\t• Shot stacks limited to [stacks]\n\t• Cooldown increased by [shot_cd]s\n\t• Stacks are generated at [regen_rate] rate"
+			info = "Range Attack leaves mist on impact, hurting and poisoning everyone who touches it.\n\t• Direct and splash damage is removed\n\t• Cloud deals [cloud_damage] damage on contact\n\t• Poison inflicted by cloud deals [sp_dmg] damage\n\t• Shot stacks limited to [stacks]\n\t• Cooldown increased by [shot_cd]s\n\t• Stacks are generated at [regen_rate] rate"
 		},
 		shot22 = {
 			name = "Bloody Mist II",
@@ -1270,7 +1270,7 @@ wep.SCP058 = {
 		},
 		shot31 = {
 			name = "Multishot I",
-			info = "Allows you to shot at rapid speed while holding attack button.\n\t• Unlock ability of rapid shoting\n\t• Direct and splash damage is removed\n\t• Shot stacks limited to [stacks]\n\t• Stacks are generated at [regen_rate] rate\n\t• Projectile size multiplier: [shot_size]\n\t• Projectile speed multiplier: [shot_size]"
+			info = "Allows you to shoot at rapid speed while holding attack button.\n\t• Unlock ability of rapid shooting\n\t• Direct and splash damage is removed\n\t• Shot stacks limited to [stacks]\n\t• Stacks are generated at [regen_rate] rate\n\t• Projectile size multiplier: [shot_size]\n\t• Projectile speed multiplier: [shot_size]"
 		},
 		shot32 = {
 			name = "Multishot II",
@@ -1827,7 +1827,7 @@ wep.OMNITOOL = {
 	},
 }
 
-wep.KEYCARD = {
+wep.KEYCARD = {  // Komische Sache, kann sein das es alt ist? Was ist Checkpoint Security?
 	author = "danx91",
 	instructions = "Access:",
 	ACC = {
